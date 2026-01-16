@@ -1,0 +1,45 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(photo/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 20px;
+    height: 350px;
+    cursor: default
+    ;
+}
+.title{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+section p{
+    font-size: 18px;
+    color: #6d6c6c;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #2078dd;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #2078dd;
+    border: 2px solid  #2078dd;
+}
